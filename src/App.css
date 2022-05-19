@@ -1,0 +1,30 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #000;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App{display:block;margin:30px auto 0;max-width:400px;}
+.logoimg{margin:30px 0 10px}
+.logoimg img{width: 70px;}
+input[type=email],
+input[type=password],
+input[type=text]{padding:12px 15px;}
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=text]:focus{border:solid 2px #1a73e8}
+button, .btn-success{background-color:#1a73e8 !important;color:#fff !important;padding:3px 20px 7px !important;}
+.error{color:#f00;font-size:12px;}
+.card-footer a:first-child{float:left;font-size:12px;}
+.card-footer a:last-child{float:right;font-size:12px}
+.card{border:1px solid rgba(0,0,0,.125) !important}
