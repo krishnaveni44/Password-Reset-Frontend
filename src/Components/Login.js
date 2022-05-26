@@ -11,9 +11,7 @@ function Login() {
   const histroy = useHistory();
   const [log, setLog] = useContext(AppContext);
 
-
-  //   https://nodejs-reset-password.herokuapp.com/
-  
+ 
   //send login
   const sendLogin = async (values) => {
     const response = await axios.post(
