@@ -13,7 +13,7 @@ function Register() {
     try {
       console.log("acc created ");
       const response = await axios.post(
-        "https://password-reset-gmail.herokuapp.com/users/register",
+        "https://nodejs-reset-password.herokuapp.com/users/register",
         {
           name: values.name,
           email: values.email,

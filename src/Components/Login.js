@@ -12,12 +12,12 @@ function Login() {
   const [log, setLog] = useContext(AppContext);
 
 
-    //  https://nodejs-reset-password.herokuapp.com/
+  //   https://nodejs-reset-password.herokuapp.com/
   
   //send login
   const sendLogin = async (values) => {
     const response = await axios.post(
-      "https://password-reset-gmail.herokuapp.com/users/login",
+      "https://nodejs-reset-password.herokuapp.com/users/login",
       {
         email: values.email,
         password: values.password,
