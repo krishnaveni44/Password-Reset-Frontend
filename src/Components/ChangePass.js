@@ -38,7 +38,7 @@ function ChangePass() {
     console.log("next try");
     try {
       const res = await axios.post(
-        `https://nodejs-reset-password.herokuapp.com/resetpassword/${id}/${token}`,
+        `https://password-reset-gmail.herokuapp.com/resetpassword/${id}/${token}`,
         {
           password: password,
         }

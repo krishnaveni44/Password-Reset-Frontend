@@ -25,7 +25,7 @@ function ForgotPass() {
     if (email.length === 0) setErr("please Enter mail ");
     try {
       const res = await axios.post(
-        "https://nodejs-reset-password.herokuapp.com/resetpassword",
+        "https://password-reset-gmail.herokuapp.com/resetpassword",
         { email: email }
       );
       console.log(res);
